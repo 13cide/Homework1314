@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#DA6D0E">
+
+    <EditText
+        android:id="@+id/email_input"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:hint="e-mail"
+        android:maxWidth="350dp"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="alekseyahlopkov@gmail.com" />
+
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:hint="password"
+        android:maxWidth="300dp"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:text=""
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp"
+        android:text="Зарегистрироваться"
+        android:textSize="20sp"
+        android:background="@drawable/button_style"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
